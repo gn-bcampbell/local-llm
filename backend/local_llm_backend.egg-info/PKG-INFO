@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: local-llm-backend
+Version: 0.1.0
+Summary: FastAPI backend and MCP server for the local LLM project.
+Author: Brendan Campbell
+Requires-Python: >=3.10
+Requires-Dist: fastapi<1.0.0,>=0.110.0
+Requires-Dist: uvicorn[standard]<1.0.0,>=0.27.0
+Requires-Dist: pydantic<3.0.0,>=2.6.0
+Requires-Dist: python-dotenv<2.0.0,>=1.0.0
+Requires-Dist: httpx<1.0.0,>=0.26.0
+Provides-Extra: dev
+Requires-Dist: httpx<1.0.0,>=0.26.0; extra == "dev"
+Requires-Dist: pytest<9.0.0,>=8.0.0; extra == "dev"
+Requires-Dist: ruff<1.0.0,>=0.3.0; extra == "dev"
